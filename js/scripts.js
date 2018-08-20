@@ -34,4 +34,8 @@ $(document).ready(function() {
   $("#yearThree").text(universalStudios.year);
   $("#lengthStayThree").text(universalStudios.lengthStay);
   $("#dishThree").text(universalStudios.dish);
+
+  $("h2").click(function() {
+    $(this).siblings().toggle();
+  })
 })
